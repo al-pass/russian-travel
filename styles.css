@@ -1,0 +1,13 @@
+/* style.css */
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 200px;
+    background-color: black;
+    font-size: 40px;
+    font-style: grey;
+} 
