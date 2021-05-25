@@ -21,10 +21,12 @@
     .cover__title{
         padding: 195px 0 0;
 }
+}
 
 @media screen and (max-width: 768px){
     .cover__title{
         padding: 115px 0 0;
+}
 }
 
 @media screen and (max-width: 320px){

@@ -1,4 +1,4 @@
-.place__website_box{
+.place__box{
     grid-area: link;
     display: flex;
     flex-direction: column-reverse;

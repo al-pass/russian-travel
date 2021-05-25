@@ -1,9 +1,9 @@
-.lead__image_kalegin{
+.lead__kalegin{
     width:100%;
     max-width: 984px;
     padding-bottom: calc(615/984*100%);
     position: relative;
-    background-image: url(../../../../images/lead/kalegin-michail-179870-unsplash.jpg);
+    background-image: url(../../../images/lead/kalegin-michail-179870-unsplash.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
