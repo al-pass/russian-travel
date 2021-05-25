@@ -1,0 +1,21 @@
+.lead__title{
+    width:720px;
+    margin:0 auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+/* or 104% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 320px){
+ .lead__title{
+        width:228px;
+        font-size: 40px;
+        line-height: 44px;
+        /* or 110% */
+    }
+}

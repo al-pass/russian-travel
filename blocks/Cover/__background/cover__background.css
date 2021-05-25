@@ -1,0 +1,30 @@
+
+.cover__background{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    width:100vw;
+    height: 62.5vw;
+    max-width: 1184px;
+    max-height: 740px;
+    background-image: url(../../../images/cover/__background.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cover__background::before{
+    position: absolute;
+    z-index: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    content: " ";
+}
+.cover__background:hover:before{
+    background: #2A2C2F;
+    opacity: 0.8;
+}

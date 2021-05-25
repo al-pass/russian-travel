@@ -1,0 +1,5 @@
+.photo-grid__cell{
+    width:100%;
+    max-width: 352px;
+    object-fit:cover;
+}

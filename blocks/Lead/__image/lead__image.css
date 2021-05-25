@@ -1,0 +1,25 @@
+.lead__image{
+    max-width: 984px;
+    box-sizing: border-box;
+    margin: 64px 148px 0;
+}
+
+@media screen and (max-width: 1024px){
+.lead__image{
+        margin: 56px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead__image{
+        margin: 56px 0 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+.lead__image{
+        max-width: 984px;
+        box-sizing: border-box;
+        margin: 40px 0;
+    }
+}

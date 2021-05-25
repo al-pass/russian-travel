@@ -1,0 +1,27 @@
+.place__website{
+    margin: 12px 0 0;
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height, or 122% */
+
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+
+.place__website:nth-child(2n){
+    font-size: 12px;
+    line-height: 12px;
+
+    letter-spacing: 0.2em;
+    text-decoration-line: none;
+
+    color: #AAAAAA;
+    margin:0;
+}

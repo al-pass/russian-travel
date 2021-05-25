@@ -1,0 +1,27 @@
+.footer__link{
+    margin:0 0 24px 18px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+/* identical to box height, or 112% */
+
+    color: #FFFFFF;
+}
+
+.footer__link:first-of-type{
+    margin:0;
+}
+
+@media screen and (max-width: 320px){
+    .footer__link{
+        margin:0;
+        margin-top:32px;
+    }
+    .footer__link:first-of-type{
+        margin:0;
+    }
+}

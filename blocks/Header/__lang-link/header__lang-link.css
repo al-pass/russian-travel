@@ -1,0 +1,37 @@
+.header__lang-link{
+    margin: 18px 18px 0 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+/* identical to box height, or 117% */
+    text-align: right;
+    text-decoration-line: none;
+    color:#FFFFFF;
+}
+.header__lang-link:last-of-type{
+    margin:0;
+}
+/*fix first of a child. it should be linked to language*/
+.header__lang-link:first-of-type{
+    text-decoration-line: underline;
+}
+.header__lang-link:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width:320px){
+    .header__lang-link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+/* identical to box height, or 111% */
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;}
+}

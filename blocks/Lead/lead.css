@@ -1,0 +1,17 @@
+.lead{
+    margin: 56px auto 0;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px){
+    .lead{
+        margin: 54px auto 0;}
+}
+
+
+@media screen and (max-width: 320px){
+    .lead{
+        margin: 48px auto 0;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,11 @@
+.lead__image_vector{
+    position: absolute;
+    width:95%;
+    padding-bottom: calc(262.99/937.09*100%);
+    top:14%;
+    left:3%;
+    background-image: url(../../../../images/lead/Block4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

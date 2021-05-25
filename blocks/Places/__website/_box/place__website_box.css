@@ -1,0 +1,11 @@
+.place__website_box{
+    grid-area: link;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (max-width: 320px){
+    .place__website_box{
+        padding: 0 12px 0;
+    }
+}
