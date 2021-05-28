@@ -6,6 +6,25 @@
   -moz-text-size-adjust: 100%;
   max-width: 1280px;
 
+
   border: none;
   margin: 0 auto;
+}
+
+@media screen and (max-width:1024px) {
+      .content{
+        max-width: 1024px;    
+      }  
+}
+
+@media screen and (max-width:768px) {
+  .content{
+    max-width: 768px;    
+  }  
+}
+
+@media screen and (max-width:320px) {
+  .content{
+    max-width: 320px;    
+  }  
 }

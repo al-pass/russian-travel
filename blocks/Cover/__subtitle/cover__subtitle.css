@@ -1,7 +1,7 @@
 .cover__subtitle{
     align-self: center;
     justify-self: center;
-    width:360px;
+    max-width:360px;
     margin: 32px 0 0;
     z-index: 1;
 
@@ -15,6 +15,15 @@
     text-align: center;
 
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 633px){
+    .cover__subtitle{
+        margin-top: calc(32/480*100%);
+        font-size: 3vw;
+        line-height: 1em;
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 320px){

@@ -3,8 +3,14 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 633px){
 .footer__links{
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 320px){
+    .footer__links{
+            flex-direction: column;
+        }
+    }
