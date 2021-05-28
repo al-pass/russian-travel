@@ -1,12 +1,10 @@
 .page{
       background-color:  #2A2C2F;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
 }
 
-* {
-      outline: 1px solid red;
-      box-sizing: border-box; 
-  
-}
 @media screen and (max-width:1024px) {
       .content{
         max-width: 1024px;    

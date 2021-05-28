@@ -6,9 +6,11 @@
   -moz-text-size-adjust: 100%;
   max-width: 1280px;
 
-
   border: none;
   margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+};
 }
 
 @media screen and (max-width:1024px) {
